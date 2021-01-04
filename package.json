@@ -1,0 +1,28 @@
+{
+  "name": "lisa-co2",
+  "version": "1.0.0",
+  "description": "CO2 WarnApp",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel --no-cache index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Josef Heiss <josef.heiss@jovisco.de> (http://www.jovisco-web.de/)",
+  "license": "ISC",
+  "dependencies": {
+    "@ericblade/quagga2": "^1.2.6",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-annotation": "^0.5.7",
+    "core-js": "^3.8.1",
+    "regenerator-runtime": "^0.13.7",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "parcel": "^2.0.0-beta.1",
+    "parcel-bundler": "^1.3.1",
+    "sass": "^1.30.0"
+  }
+}

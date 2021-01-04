@@ -1,0 +1,68 @@
+.rooms {
+    display: flex;
+    flex-direction: column;
+
+ &__buttons {
+    width: 100%;
+    margin: 1rem 0 0.5rem 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+  }
+
+   &__btn {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 250%;
+    border: 2px solid white;
+    background-image: none;
+    color: $color-primary;
+    padding: 1rem 2rem;
+  }
+
+  &__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+}
+
+.room {
+    background-color: #fff;
+    min-width: 190px;
+    min-height: 190px;
+    width: 190px;
+    height: 190px;
+    border-radius: 2rem;
+    /* border: 1px solid black; */
+    margin: 1rem 0.5rem 0.5rem 1rem;
+    /* padding: 1rem 2rem 1rem 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    &:last-of-type {
+      margin-right: 1rem;
+    }
+
+    &__desc {
+      position: relative;
+      top: 45%;
+      left: 45%;
+      width: 90px;
+      border-radius: 5px;
+      z-index: 10;
+      padding: 5px;
+      background-color: #333;
+      color: #eee;
+      font-size: 120%;
+    }
+}
+
+.circle {
+  // position: relative;
+  border-radius: 50%;
+  background-color: rgb(129, 156, 148);
+}

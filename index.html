@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet" />
+    <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+      crossorigin="anonymous" />
+    <!--
+    <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
+    -->
+    <link rel="stylesheet" href="src/sass/main.scss" />
+    <script defer src="src/js/app.controller.js"></script>
+
+    <title>CO 2 - WarnApp</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <i class="fas fa-bars fa-3x menu menu--icon"></i>
+        <i class="fas fa-arrow-left fa-3x back menu--icon hidden"></i>
+        <!--
+        <img src="./src/img/001-speisekarte.png" class="menu menu--icon">
+        <img src="./src/img/002-linker-pfeil.png" class="back menu--icon hidden">
+        -->
+        <div class="title">
+          <h1 class="title__text">Meine Räume</h1>
+          <h2 class="subtitle__text"></h2>
+        <div>
+      </header>
+      <div class="rooms">
+        <div class="rooms__buttons">
+          <button class="btn rooms__btn">
+            <span>Barcode lesen</span>
+          </button>
+        </div>
+        <div class="rooms__list">
+        </div>
+      </div>
+
+      <div class="details hidden">
+        <div class="details__buttons">
+          <button class="btn details__hour">
+            <span>Stunde</span>
+          </button>
+          <button class="btn details__day">
+            <span>Tag</span>
+          </button>
+          <button class="btn details__week">
+            <span>Woche</span>
+          </button>
+          <button class="btn details__month">
+            <span>Monat</span>
+          </button>
+        </div>
+        <div class="details__diagrams">
+        </div>
+      </div>
+
+      <div class="barcode hidden">
+        <div class="barcode__buttons">
+          <button class="btn barcode__start">
+            <span>Barcode scannen</span>
+          </button>
+          <button class="btn barcode__stop hidden">
+            <span>Abbrechen</span>
+          </button>
+        </div>
+        <p>Hier kommt der Barcode-Leser</p>
+      </div>
+
+      <div class="add-room hidden">
+        <p>Hier kommt die Form zur manuellen Eingabe eines Raums</p>
+        <div>Icons made by <a href="https://www.flaticon.com/de/autoren/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com></a></div>
+      </div>
+    </div>
+  </body>
+</html>

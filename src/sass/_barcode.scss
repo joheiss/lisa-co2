@@ -1,0 +1,23 @@
+.barcode {
+  display: flex;
+    flex-direction: column;
+
+  &__buttons {
+    width: 100%;
+    margin: 1rem 2rem 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+  }
+
+   &__start, &__stop {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 250%;
+    border: 2px solid white;
+    background-image: none;
+    color: $color-primary;
+    padding: 1rem 2rem;
+  }
+}
